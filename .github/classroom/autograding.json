@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "GCAGCCACG",
+      "output": "RNA: CGUCGGUGC\r\nProtein: Arg Arg Cys",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "AAGCCGTTGAGCCGCGGCATTGAGC",
+      "output": "RNA: UUCGGCAACUCGGCGCCGUAACUCG\r\nProtein: Phe Gly Asn Ser Ala Prolin XXX Leu XXX",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "ATGCCGACTGCAC",
+      "output": "RNA: UACGGCUGACGUG\r\nProtein: Tyr Gly XXX Arg XXX",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "ACGACATCAGCATCGACTACGACATACAGCACTACGCCAC",
+      "output": "RNA: UGCUGUAGUCGUAGCUGAUGCUGUAUGUCGUGAUGCGGUG\r\nProtein: Cys Cys Ser Arg Ser XXX Cys Cys Met Ser XXX Cys Gly\r\nProtein Misfolded",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "ATGCACAGCATCAGCACCCAGAACGACTACGACAAATCAGCACTGACCACAGCA",
+      "output": "RNA: UACGUGUCGUAGUCGUGGGUCUUGCUGAUGCUGUUUAGUCGUGACUGGUGUCGU\r\nProtein: Tyr Val Ser XXX Ser Trp Val Leu Leu Met Leu Phe\r\nProtein Misfolded",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
