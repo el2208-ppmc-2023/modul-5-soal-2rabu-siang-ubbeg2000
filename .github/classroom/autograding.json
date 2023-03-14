@@ -35,7 +35,7 @@
       "setup": "",
       "run": "./main",
       "input": "ACGACATCAGCATCGACTACGACATACAGCACTACGCCAC",
-      "output": "RNA: UGCUGUAGUCGUAGCUGAUGCUGUAUGUCGUGAUGCGGUG\r\nProtein: Cys Cys Ser Arg Ser XXX Cys Cys Met Ser XXX Cys Gly\r\nProtein Misfolded",
+      "output": "RNA: UGCUGUAGUCGUAGCUGAUGCUGUAUGUCGUGAUGCGGUG\r\nProtein: Cys Cys Ser Arg Ser XXX Cys Cys Met Ser XXX Cys Gly \r\nProtein Misfolded",
       "comparison": "included",
       "timeout": 1,
       "points": 20
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "./main",
       "input": "ATGCACAGCATCAGCACCCAGAACGACTACGACAAATCAGCACTGACCACAGCA",
-      "output": "RNA: UACGUGUCGUAGUCGUGGGUCUUGCUGAUGCUGUUUAGUCGUGACUGGUGUCGU\r\nProtein: Tyr Val Ser XXX Ser Trp Val Leu Leu Met Leu Phe\r\nProtein Misfolded",
+      "output": "RNA: UACGUGUCGUAGUCGUGGGUCUUGCUGAUGCUGUUUAGUCGUGACUGGUGUCGU\r\nProtein: Tyr Val Ser XXX Ser Trp Val Leu Leu Met Leu Phe \r\nProtein Misfolded",
       "comparison": "included",
       "timeout": 1,
       "points": 20
